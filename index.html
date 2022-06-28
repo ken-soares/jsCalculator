@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Calculator</title>
+	<script defer src="script.js"></script>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>Calculator</h1>
+	</header>
+	<div class="container">
+		<p class="result">___</p>
+		<div class="buttons">
+			<div class="row1">
+				<button id="one" onclick="setVal(1)">1</button>
+				<button id="two" onclick="setVal(2)">2</button>
+				<button id="three" onclick="setVal(3)">3</button>
+				<button id="clear" onclick="clearArr()">C</button>
+			</div>
+			<div class="row2">
+				<button id="four"onclick="setVal(4)">4</button>
+				<button id="five"onclick="setVal(5)">5</button>
+				<button id="six"onclick="setVal(6)">6</button>
+				<button id="plus"onclick="setVal('+')">+</button>
+			</div>
+			<div class="row3">
+				<button id="seven"onclick="setVal(7)">7</button>
+				<button id="eight"onclick="setVal(8)">8</button>
+				<button id="nine"onclick="setVal(9)">9</button>
+				<button id="minus"onclick="setVal('-')">-</button>
+			</div>
+			<div class="row4">
+				<button id="multiply"onclick="setVal('*')">*</button>
+				<button id="zero"onclick="setVal(0)">0</button>
+				<button id="divide"onclick="setVal('/')">/</button>
+				<button id="equal" onclick="equals()">=</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
